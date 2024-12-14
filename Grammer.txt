@@ -1,0 +1,19 @@
+Grammar
+We'll use the same grammar for simple arithmetic expressions:
+
+mathematica
+Copy code
+E → T E'
+E' → + T E' | ε
+T → F T'
+T' → * F T' | ε
+F → ( E ) | idGrammar
+We'll use the same grammar for simple arithmetic expressions:
+
+mathematica
+Copy code
+E → T E'
+E' → + T E' | ε
+T → F T'
+T' → * F T' | ε
+F → ( E ) | id
